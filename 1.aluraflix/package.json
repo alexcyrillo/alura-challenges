@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Após alguns testes com protótipos feitos pelo time de UX de uma empresa, foi requisitada a primeira versão de uma plataforma para compartilhamento de vídeos. A plataforma deve permitir ao usuário montar playlists com links para seus vídeos preferidos, separados por categorias.",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"serve": "nodemon server.js"
@@ -21,6 +22,7 @@
 		"nodemon": "^3.0.1"
 	},
 	"dependencies": {
-		"express": "^4.18.2"
+		"express": "^4.18.2",
+		"mongoose": "^7.6.3"
 	}
 }
